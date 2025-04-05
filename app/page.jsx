@@ -82,7 +82,8 @@ export default function Home() {
         }
         {/* prompt box */}
         <PromptBox isLoading={isLoading} setIsLoading={setIsLoading} />
-        <p className="text-xs absolute bottom-1 text-gray-500">AI-generated, for reference only</p>
+        <p className="text-xs absolute bottom-1 text-gray-500">AI-generated, for reference only </p>
+        <p className="text-xs mt-2 text-gray-500">BlockSensei v1.0 by BlockBoyz </p>
 
         </div>
       </div>
